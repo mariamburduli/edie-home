@@ -1,0 +1,401 @@
+section.welcome {
+  margin-top: 100px;
+}
+
+section.welcome .about-us-container .introduction-text {
+  max-width: 500px;
+  width: 100%;
+  margin-left: 277px;
+  color: black;
+}
+
+section.welcome .about-us-container .introduction-text p {
+  font-size: 14px;
+  font-family: "Poppins-Light";
+}
+
+section.welcome .about-us-container .introduction-text h1 {
+  width: 543px;
+  font-family: "Poppins-Medium";
+  font-size: 48px;
+  line-height: 72px;
+  color: #333333;
+}
+
+section.welcome .about-us-container .introduction-text:first-child p {
+  color: #2d9cdb;
+}
+
+section.welcome .about-us-container .introduction-text:first-child h1 {
+  margin-top: 16px;
+}
+
+section.welcome .about-us-container .introduction-text:nth-child(3) h1 {
+  margin-top: 42px;
+  width: 366px;
+}
+
+section.welcome .about-us-container .introduction-text:nth-child(3) p {
+  color: #4f4f4f;
+  margin-top: 42px;
+  width: 366px;
+}
+
+section.welcome .about-us-container .image-box {
+  margin-left: 52px;
+  margin-right: 52px;
+  margin-top: 42px;
+  height: 354px;
+  border-radius: 18px;
+  background-image: url("../../images/heroImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+section.welcome .about-us-container .get-in-touch {
+  margin-left: 277px;
+  margin-top: 42px;
+}
+
+section.welcome .about-us-container .get-in-touch label {
+  font-family: "Poppins-Light";
+  font-size: 14px;
+  color: #828282;
+}
+
+section.welcome .about-us-container .get-in-touch .form-group {
+  margin-top: 8px;
+  position: relative;
+}
+
+section.welcome .about-us-container .get-in-touch .form-group input {
+  width: 250px;
+  height: 57px;
+  background: #f2f2f2;
+  border-radius: 12px;
+  border: 0;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  color: #bdbdbd;
+  padding-left: 20px;
+  padding-right: 4px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+}
+
+section.welcome .about-us-container .get-in-touch .form-group button {
+  width: 94px;
+  height: 49px;
+  background: #2d9cdb;
+  border-radius: 12px;
+  border: 0;
+  color: white;
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+  position: absolute;
+  left: 152px;
+  top: 4px;
+  cursor: pointer;
+}
+
+section.services {
+  margin-top: 104px;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+section.services .cards-container .card {
+  max-width: 342px;
+  width: 100%;
+  height: 422px;
+  padding: 46px 34px;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+section.services .cards-container .card .service-icon {
+  width: 67px;
+  height: 67px;
+  background: #2d9cdb;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+section.services .cards-container .card .service-icon::after {
+  content: " ";
+  background-image: url("../../icons/uiux.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 22px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  -webkit-filter: brightness(0) saturate(100%) invert(100%) sepia(59%) saturate(198%) hue-rotate(176deg) brightness(105%) contrast(96%);
+          filter: brightness(0) saturate(100%) invert(100%) sepia(59%) saturate(198%) hue-rotate(176deg) brightness(105%) contrast(96%);
+}
+
+section.services .cards-container .card h1 {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  color: #333333;
+  margin-top: 35px;
+}
+
+section.services .cards-container .card p {
+  font-family: "Poppins-Light";
+  font-size: 14px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-top: 24px;
+}
+
+section.services .cards-container .card button {
+  width: 116px;
+  height: 42px;
+  background: #e0e0e0;
+  border-radius: 12px;
+  border: 0;
+  margin-top: 30px;
+  font-family: "Poppins-Medium";
+  font-size: 14px;
+  color: #828282;
+  cursor: pointer;
+}
+
+section.services .cards-container .card:nth-child(2) .service-icon {
+  background-color: #27ae60;
+}
+
+section.services .cards-container .card:nth-child(2) .service-icon::after {
+  content: " ";
+  background-image: url("../../icons/front-end.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 22px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  left: 22px;
+  top: 26px;
+}
+
+section.services .cards-container .card:last-child .service-icon {
+  background-color: #eb5757;
+}
+
+section.services .cards-container .card:last-child .service-icon::after {
+  content: " ";
+  background-image: url("../../icons/back-end.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 22px;
+  height: 24px;
+  display: inline-block;
+  position: relative;
+  top: 22px;
+  left: 23px;
+}
+
+section.services .cards-container .card:nth-child(2), section.services .cards-container .card:nth-child(3) {
+  margin-left: 42px;
+}
+
+section.services .cards-container .card:hover {
+  -webkit-box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+          box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+}
+
+section.services .cards-container .card:hover button {
+  background: #2d9cdb;
+  color: white;
+}
+
+section.our-design-advice {
+  margin-top: 100px;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+section.our-design-advice .cards-container {
+  width: 100%;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 40px;
+}
+
+section.our-design-advice .cards-container .card {
+  width: calc(50% - 5px);
+  height: 540px;
+}
+
+section.our-design-advice .cards-container .card .image-box {
+  background-image: url("../../images/smarthome.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  border-radius: 12px;
+}
+
+section.our-design-advice .cards-container .card p {
+  font-family: "Poppins-Light";
+  font-size: 14px;
+  color: #828282;
+  margin-top: 10px;
+}
+
+section.our-design-advice .cards-container .card h1 {
+  font-family: "Poppins-Medium";
+  font-size: 18px;
+  color: #333333;
+  margin-top: 4px;
+}
+
+section.our-design-advice .cards-container .card:nth-child(1), section.our-design-advice .cards-container .card:nth-child(3) {
+  position: relative;
+  top: 150px;
+}
+
+section.our-design-advice .cards-container .card:nth-child(2) .image-box {
+  background-image: url("../../images/onboard.png");
+}
+
+section.our-design-advice .cards-container .card:nth-child(3) .image-box {
+  background-image: url("../../images/booking.png");
+}
+
+section.our-design-advice .cards-container .card:last-child .image-box {
+  background-image: url("../../images//juice-product.png");
+}
+
+section.team {
+  margin-top: 200px;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+section.team .info-text {
+  max-width: 280px;
+  width: 100%;
+}
+
+section.team .info-text p {
+  font-family: "Poppins-Regular";
+  font-size: 14px;
+}
+
+section.team .info-text p:nth-child(1) {
+  color: #eb5757;
+}
+
+section.team .info-text p:last-child {
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-top: 14px;
+  font-family: "Poppins-Light";
+}
+
+section.team .info-text h1 {
+  font-family: "Poppins-Regular";
+  font-size: 30px;
+  line-height: 50px;
+  color: #333333;
+}
+
+section.team .gallery-container {
+  margin-left: auto;
+}
+
+section.team .gallery-container .image-box {
+  max-width: 300px;
+  width: 100%;
+  height: 320px;
+  background-color: white;
+}
+
+section.team .gallery-container .image-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+section.team .gallery-container .column {
+  margin-left: 24px;
+}
+
+section.team .gallery-container .column .image-box:first-child {
+  max-width: 260px;
+  width: 100%;
+  height: 260px;
+}
+
+section.team .gallery-container .column .image-box:first-child img {
+  width: 100%;
+  height: 100%;
+}
+
+section.team .gallery-container .column .image-box:last-child {
+  max-width: 290px;
+  width: 100%;
+  height: 290px;
+  margin-top: 24px;
+}
+
+section.team .gallery-container .column .image-box:last-child img {
+  width: 100%;
+  height: 100%;
+}
+
+section.feedback {
+  margin-top: 150px;
+  margin-left: 165px;
+  margin-right: 165px;
+}
+
+section.feedback .customer-says-container {
+  max-width: 680px;
+  width: 100%;
+}
+
+section.feedback .customer-says-container .text {
+  font-family: "Poppins-Regular";
+  font-size: 22px;
+  line-height: 54px;
+  color: #333333;
+}
+
+section.feedback .customer-says-container .customer-info {
+  margin-top: 36px;
+}
+
+section.feedback .customer-says-container .customer-info .image-box {
+  background-image: url("../../images/person4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+}
+
+section.feedback .customer-says-container .customer-info .personal-info {
+  margin-left: 20px;
+}
+
+section.feedback .customer-says-container .customer-info .personal-info h1 {
+  font-family: "Poppins-Regular";
+  font-size: 18px;
+  color: #333333;
+}
+
+section.feedback .customer-says-container .customer-info .personal-info p {
+  font-family: "Poppins-Light";
+  font-size: 14px;
+  color: #828282;
+  margin-top: 12px;
+}
+/*# sourceMappingURL=index.css.map */

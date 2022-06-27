@@ -1,0 +1,210 @@
+@media only screen and (max-width: 1170px) {
+  section.welcome .about-us-container .introduction-text {
+    margin-left: 165px;
+  }
+  section.welcome .about-us-container .get-in-touch {
+    margin-left: 165px;
+  }
+  section.services .cards-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.services .cards-container .card {
+    max-width: 100%;
+  }
+  section.services .cards-container .card:nth-child(2), section.services .cards-container .card:nth-child(3) {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+  section.our-design-advice .cards-container {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section.our-design-advice .cards-container .card {
+    width: 100%;
+    height: 410px;
+  }
+  section.our-design-advice .cards-container .card .image-box {
+    height: 350px;
+  }
+  section.our-design-advice .cards-container .card:nth-child(1), section.our-design-advice .cards-container .card:nth-child(3) {
+    position: static;
+  }
+  section.our-design-advice .cards-container .card:not(:first-child) {
+    margin-top: 30px;
+  }
+  section.team {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 100px;
+  }
+  section.team .info-text {
+    max-width: 100%;
+  }
+  section.team .gallery-container {
+    width: 100%;
+    margin-top: 40px;
+  }
+  section.team .gallery-container .image-box {
+    width: 260px;
+    height: 290px;
+  }
+  section.team .gallery-container .image-box:nth-child(1) {
+    margin-right: 24px;
+  }
+  section.team .gallery-container .column {
+    margin-left: auto;
+  }
+  section.team .gallery-container .column .image-box {
+    height: 230px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  section.welcome .about-us-container .introduction-text {
+    margin-left: 40px;
+  }
+  section.welcome .about-us-container .image-box {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  section.welcome .about-us-container .get-in-touch {
+    margin-left: 40px;
+    margin-top: 42px;
+  }
+  section.services {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  section.our-design-advice {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  section.team {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  section.team .gallery-container {
+    margin-left: auto;
+  }
+  section.team .gallery-container .image-box {
+    max-width: 220px;
+    width: 100%;
+    height: 280px;
+  }
+  section.team .gallery-container .image-box img {
+    width: 100%;
+    height: 100%;
+  }
+  section.team .gallery-container .column {
+    margin-left: auto;
+  }
+  section.team .gallery-container .column .image-box:first-child {
+    height: 230px;
+  }
+  section.team .gallery-container .column .image-box:last-child {
+    max-width: 290px;
+    height: 200px;
+  }
+  section.feedback {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .pages-container {
+    margin-left: 20px;
+  }
+  footer .soc-media-container {
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  footer .get-in-touch {
+    margin-right: 0px;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  header {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  header nav .pages-container {
+    display: none;
+  }
+  header nav .burger {
+    background-image: url("../../icons/menu - hamburger.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22px;
+    width: 22px;
+    display: block;
+    cursor: pointer;
+  }
+  section.welcome .about-us-container .introduction-text p {
+    font-size: 12px;
+  }
+  section.welcome .about-us-container .introduction-text h1 {
+    width: 400px;
+    font-size: 33px;
+    line-height: 50px;
+  }
+  section.welcome .about-us-container .introduction-text:nth-child(3) h1 {
+    margin-top: 30px;
+  }
+  section.welcome .about-us-container .introduction-text:nth-child(3) p {
+    line-height: 27px;
+  }
+  section.welcome .about-us-container .image-box {
+    margin-top: 30px;
+  }
+  section.welcome .about-us-container .get-in-touch {
+    margin-top: 30px;
+  }
+  footer .pages-container .page {
+    font-size: 13px;
+    cursor: pointer;
+  }
+  footer .pages-container .page:not(:first-child) {
+    margin-top: 20px;
+  }
+  footer .soc-media-container .logo img {
+    width: 60px;
+  }
+  footer .get-in-touch .form-group input {
+    width: 180px;
+    height: 57px;
+  }
+  footer .get-in-touch .form-group button {
+    width: 70px;
+    height: 40px;
+    left: 100px;
+    top: 9px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

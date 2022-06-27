@@ -1,0 +1,225 @@
+@media only screen and (max-width: 1170px) {
+  section.welcome {
+    .about-us-container {
+      .introduction-text {
+        margin-left: 165px;
+      }
+      .get-in-touch {
+        margin-left: 165px;
+      }
+    }
+  }
+  section.services {
+    .cards-container {
+      display: flex;
+      flex-direction: column;
+      .card {
+        max-width: 100%;
+        &:nth-child(2),
+        &:nth-child(3) {
+          margin-left: 0;
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+  section.our-design-advice {
+    .cards-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .card {
+        width: 100%;
+        height: 410px;
+        .image-box {
+          height: 350px;
+        }
+        &:nth-child(1),
+        &:nth-child(3) {
+          position: static;
+        }
+        &:not(:first-child) {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+  section.team {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    .info-text {
+      max-width: 100%;
+    }
+    .gallery-container {
+      width: 100%;
+      margin-top: 40px;
+      .image-box {
+        width: 260px;
+        height: 290px;
+        &:nth-child(1) {
+          margin-right: 24px;
+        }
+      }
+      .column {
+        margin-left: auto;
+        .image-box {
+          height: 230px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 700px) {
+  section.welcome {
+    .about-us-container {
+      .introduction-text {
+        margin-left: 40px;
+      }
+      .image-box {
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .get-in-touch {
+        margin-left: 40px;
+        margin-top: 42px;
+      }
+    }
+  }
+  section.services {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  section.our-design-advice {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  section.team {
+    margin-left: 20px;
+    margin-right: 20px;
+    .gallery-container {
+      margin-left: auto;
+      .image-box {
+        max-width: 220px;
+        width: 100%;
+        height: 280px;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .column {
+        margin-left: auto;
+        .image-box {
+          &:first-child {
+            height: 230px;
+          }
+          &:last-child {
+            max-width: 290px;
+            height: 200px;
+          }
+        }
+      }
+    }
+  }
+  section.feedback {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    .pages-container {
+      margin-left: 20px;
+    }
+    .soc-media-container {
+      margin-left: 20px;
+      margin-top: 40px;
+    }
+    .get-in-touch {
+      margin-right: 0px;
+      margin-left: 20px;
+      margin-top: 40px;
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  header {
+    margin-left: 20px;
+    margin-right: 20px;
+    nav {
+      .pages-container {
+        display: none;
+      }
+      .burger {
+        background-image: url("../../icons/menu\ -\ hamburger.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 22px;
+        width: 22px;
+        display: block;
+        cursor: pointer;
+      }
+    }
+  }
+  section.welcome {
+    .about-us-container {
+      .introduction-text {
+        p {
+          font-size: 12px;
+        }
+        h1 {
+          width: 400px;
+          font-size: 33px;
+          line-height: 50px;
+        }
+        &:nth-child(3) {
+          h1 {
+            margin-top: 30px;
+          }
+          p {
+            line-height: 27px;
+          }
+        }
+      }
+      .image-box {
+        margin-top: 30px;
+      }
+      .get-in-touch {
+        margin-top: 30px;
+      }
+    }
+  }
+  footer {
+    .pages-container {
+      .page {
+        font-size: 13px;
+        cursor: pointer;
+        &:not(:first-child) {
+          margin-top: 20px;
+        }
+      }
+    }
+    .soc-media-container {
+      .logo {
+        img {
+          width: 60px;
+        }
+      }
+    }
+    .get-in-touch {
+      .form-group {
+        input {
+          width: 180px;
+          height: 57px;
+        }
+        button {
+          width: 70px;
+          height: 40px;
+          left: 100px;
+          top: 9px;
+        }
+      }
+    }
+  }
+}
