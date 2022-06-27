@@ -3,15 +3,26 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  max-width: 1440px;
+html {
   width: 100%;
+  height: 100%;
 }
+
+body {
+  min-height: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+
 header {
-  margin-left: 52px;
-  margin-right: 52px;
+  margin: 0 52px;
+
   nav {
     height: 80px;
+    justify-content: space-between;
     .logo {
       cursor: pointer;
       img {
@@ -20,7 +31,6 @@ header {
       }
     }
     .pages-container {
-      margin-left: auto;
       .page {
         font-family: "Poppins-Regular";
         font-size: 18px;
